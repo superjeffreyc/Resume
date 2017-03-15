@@ -1,0 +1,107 @@
+% Jeffrey Chan's LaTeX resume
+\documentclass[10.5pt]{res}
+\usepackage[margin=0.5in]{geometry}
+\usepackage{helvetica}
+\textwidth = 10cm
+\columnwidth = 10cm
+\newsectionwidth{0cm}
+\textwidth=7.5in
+\newcommand{\sectionSpace}{\vspace{-3pt}}
+\newcommand{\itemSpace}{\vspace{-8pt}}
+%\usepackage{showframe}
+\begin{document} 
+\centerline{\LARGE \textbf{Jeffrey Chan}}
+{\vspace{1pt}}
+\centerline{superjeffreyc.cs@gmail.com \textbar ~845-549-9950 \textbar ~Fishkill, NY \textbar ~https://superjeffreyc.github.io}      
+\vspace{-16pt}              
+\begin{resume}                   
+\textbf{EDUCATION} \\ [-10.5pt]
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}\\
+\textbf{Binghamton University, State University of New York} \hfill Expected 05/2017 \\
+    	Thomas J. Watson School of Engineering and Applied Science \\
+	Bachelor of Science in Computer Science \\
+	Cumulative GPA: 4.0/4.0 | Watson School Dean’s Honors List: Fall 2015 – Spring 2016 
+	\sectionSpace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{SKILLS} \\ [-10.5pt]
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}\\
+{\it Languages}~: Python, C++, C, JavaScript, Java, Ruby, x86 Assembler, IBM Assembler \\
+{\it Operating Systems}~: Windows, Linux, z/VM \\
+{\it Tools}~: Bash, Vim, Git, Cygwin, Travis CI, Visual Studio, Android Studio, Cloud9, Heroku, PostgreSQL \\
+{\it Other}~: Agile, Behavior-driven Development, Test-driven Development, Object-Oriented Programming
+\sectionSpace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{PROFESSIONAL EXPERIENCE} \\ [-10.5pt]
+\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}\\
+\textbf{IBM Corporation at Poughkeepsie, NY} \\
+{\it Firmware Engineer} \hfill Starting 06/2017 \\
+{\vspace{-11pt}} \\
+{\it System z LPAR Firmware Engineering Intern} \hfill 05/2016 - 08/2016 \\ [-11pt]  
+	\begin{itemize} \itemsep -1pt % reduce space between items 
+	\item  Developed a non-disruptive logging service for the LPAR Hypervisor to resolve space limitations and capture data in memory when a dump is unavailable, providing First Error Data Capture for the team.  
+ 	\item Organized meetings with global firmware teams and created the design document outlining the new interface for the logging service.         
+	\item Tested the new interface using a hand loop to issue a watchdog timeout and verified the results of the logging service by examining a virtual machine’s dump data.
+	\end{itemize}
+	\itemSpace
+{\it System z FCP Firmware Development Intern} \hfill 05/2015 - 08/2015 \\ [-11pt]  
+	\begin{itemize} \itemsep -1pt % reduce space between items 
+	\item Developed firmware for IBM customers to retrieve diagnostic parameters from the Fibre Channel fabric, enabling customers to undergo preventative maintenance. 
+ 	\item Created a command-line program using Jython to gather information about devices and members in the Fibre Channel fabric and catalog them into an Apache database, eliminating the need to manually update the database.
+	\item Designed the layout of a new tool to login new virtual devices into the Fibre Channel fabric, allowing IBM customers to have more flexibility when communicating between two devices.
+	\end{itemize}
+	\sectionSpace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{PROJECTS} \\ [-10.5pt]
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}\\
+{\it Aura Project – Open Source MMORPG Server Emulator}\\ [-11pt]  
+	\begin{itemize} \itemsep -1pt % reduce space between items 
+	\item Contributed to an open source community involved in reverse engineering an online multiplayer game.
+ 	\item Implemented a shutdown command to notify users, save server variables, and switch channels to maintenance.
+	\item Developed the shutdown procedure and inter-server communication in C\#.
+	\end{itemize}
+	\itemSpace
+{\it Binghamton University Table Tennis Club Website} \\ [-11pt]  
+	\begin{itemize} \itemsep -1pt % reduce space between items 
+	\item Built a web application that stores club attendance, practices, player info/ratings, displays photos, and more.
+ 	\item Used Python/Django/PostgreSQL for backend logic to update the database and show the latest statistics.
+	\item Utilized Git for collaboration among five members and Cloud9 IDE for pair programming.
+	\end{itemize}
+	\itemSpace
+{\it Yut Nori for Android} \\ [-11pt]  
+	\begin{itemize} \itemsep -1pt % reduce space between items 
+	\item Designed the board game layout using XML and planned the flow of events in the game using class diagrams.
+ 	\item Combined sequences of images using the AnimationDrawable class to create an interactive user interface.
+	\item Utilized Git for version control among four project collaborators.
+	\end{itemize}
+	\itemSpace
+{\it Bird Fetcher (Alexa Skill)}\\ [-11pt]  
+	\begin{itemize} \itemsep -1pt % reduce space between items 
+	\item Developed an Alexa skill for the Echo \& Echo Dot allowing users to look up the 10 most recent bird sightings in a city.
+ 	\item Incorporated the Google Maps API to get the latitude/longitude of a city and passed the coordinates to the eBird API.
+	\item Published the skill to the Amazon Alexa Skill store.
+	\end{itemize}
+	\itemSpace
+{\it Big Bowl (Web Application)}\\ [-11pt]  
+	\begin{itemize} \itemsep -1pt % reduce space between items 
+	\item Created a word party game that allows users to enter words into a word bank and play taboo, charades, and password.
+ 	\item Used GET and POST requests using JavaScript/jQuery to provide a single page application for a simple user interface.
+	\item Allowed users to create online rooms and contribute words together by using Heroku Postgres.
+	\end{itemize}
+	\sectionSpace
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\textbf{OTHER EXPERIENCE} \\ [-10.5pt]
+\noindent\makebox[\linewidth]{\rule{\textwidth}{0.4pt}}\\
+{\it Learning and Representation in Cognition Lab Assistant, Binghamton University}\hfill 08/2016 - 05/2017 \\ [-11pt]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{resume}
+\end{document}
+
+
+
+
+
+
