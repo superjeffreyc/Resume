@@ -9,7 +9,7 @@ Download LaTeX at https://www.latex-project.org/
 
 ## How to compile .tex and get a PDF file through TeXworks
 - Run TeXworks
-- Open <filename>.tex
+- Open the .tex file
 - Select pdfLaTex from the dropdown menu
 - Click the green play button
 
